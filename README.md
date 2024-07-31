@@ -27,8 +27,14 @@ http://localhost:3000
 To make requests you must add to the API's url, (http://localhost:3000), the following:
 
 /api/v1/users to make request of users.
+
+
 /api/v1/products to make request of products.
+
+
+
 /api/v1/orders to make request of orders.
+
 
 Then, depending on the information you need, add the enpoints described below
 
