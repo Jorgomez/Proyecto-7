@@ -27,8 +27,14 @@ http://localhost:3000
 To make requests you must add to the API's url, (http://localhost:3000), the following:
 
 /api/v1/users to make request of users.
+
+
 /api/v1/products to make request of products.
+
+
+
 /api/v1/orders to make request of orders.
+
 
 Then, depending on the information you need, add the enpoints described below
 
@@ -37,10 +43,15 @@ Then, depending on the information you need, add the enpoints described below
 #### USER
 
 get: '/' get all users
+
 get: /:id get an user by ID
+
 post: /register create an user
+
 post: /login login an user
+
 put: /:id Update a User
+
 delete /:id Delete an User
 
 Notes:
@@ -52,10 +63,15 @@ Just the admin can delete an user, or the user to himself.
 #### PRODUCTS
 
 get: '/' get all products
+
 get: /:id get a product by ID
+
 post: / create a product
+
 put: /:id Update a product
+
 delete /:id Delete a product
+
 
 Notes:
 To create, update or delete a product, you must to have an "admin" role
@@ -63,9 +79,13 @@ To create, update or delete a product, you must to have an "admin" role
 #### ORDERS
 
 get: '/' get all orders
+
 get: /:id get an order by ID
+
 post: / create a order
+
 put: /:id Update a order
+
 delete /:id Delete a order
 
 Notes:
